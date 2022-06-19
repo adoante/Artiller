@@ -5,9 +5,11 @@ public class Enemy {
     private int damage = 0;
     private int money = 0;
 
+    // This is a empty constructor. It is a special method that is called when an object is created.
     public Enemy() {
     }
 
+    // This is a constructor. It is a special method that is called when an object is created.
     public Enemy(int health, double speed, int damage, int money) {
         this.health = health;
         this.speed = speed;
