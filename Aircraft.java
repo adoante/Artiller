@@ -14,7 +14,7 @@ public class Aircraft extends Enemy {
         this.height = height;
     }    
 
-    // This is a getter and setter for the height variable.
+    // This is a getter and setter for the instance variables.
     /**
      * // Java
      * public double getHeight() {

@@ -14,7 +14,7 @@ public class Player {
         this.money = money;
     }
 
-    // A Java class that is used to create a player object.
+    // This is a getter and setter for the instance variables.
     /**
      * This function returns the name of the person
      * 
