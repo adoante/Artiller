@@ -1,7 +1,7 @@
 public class Player {
     // Instance Variables
     String name = " ";
-    int money = " ";
+    int money = 0;
 
 
     // This is a constructor.
