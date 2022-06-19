@@ -3,18 +3,18 @@ public class Enemy {
     private int health = 0;
     private double speed = 0.0;
     private int damage = 0;
-    private int money = 0;
+    private int payout = 0;
 
     // This is a empty constructor. It is a special method that is called when an object is created.
     public Enemy() {
     }
 
     // This is a constructor. It is a special method that is called when an object is created.
-    public Enemy(int health, double speed, int damage, int money) {
+    public Enemy(int health, double speed, int damage, int payout) {
         this.health = health;
         this.speed = speed;
         this.damage = damage;
-        this.money = money;
+        this.payout = payout;
     }
 
     // This is a getter and setter for the instance variables.
@@ -73,21 +73,21 @@ public class Enemy {
     }
 
     /**
-     * This function returns the value of the money variable.
+     * This function returns the value of the payout variable.
      * 
-     * @return The money variable is being returned.
+     * @return The payout variable is being returned.
      */
-    public int getMoney() {
-        return this.money;
+    public int getpayout() {
+        return this.payout;
     }
 
     /**
-     * This function sets the money variable to the value of the money parameter.
+     * This function sets the payout variable to the value of the payout parameter.
      * 
-     * @param money The amount of money the Enemy gives.
+     * @param payout The amount of payout the Enemy gives.
      */
-    public void setMoney(int money) {
-        this.money = money;
+    public void setpayout(int payout) {
+        this.payout = payout;
     }
 
     /**
@@ -105,7 +105,7 @@ public class Enemy {
             return false;
         }
         Enemy enemy = (Enemy) o;
-        return health == enemy.health && speed == enemy.speed && damage == enemy.damage && money == enemy.money;
+        return health == enemy.health && speed == enemy.speed && damage == enemy.damage && payout == enemy.payout;
     }
 
     /**
@@ -119,7 +119,7 @@ public class Enemy {
             " health='" + getHealth() + "'" +
             ", speed='" + getSpeed() + "'" +
             ", damage='" + getDamage() + "'" +
-            ", money='" + getMoney() + "'" +
+            ", payout='" + getpayout() + "'" +
             "}";
     }
 }
